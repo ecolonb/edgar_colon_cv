@@ -1,0 +1,18 @@
+{
+  "name": "mi_cv",
+  "version": "1.0.0",
+  "description": "Edgar Colón profile!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cv",
+    "profile"
+  ],
+  "author": "Julien Bisconti <julienbi@unity3d.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
