@@ -16,24 +16,26 @@
 <body>
     <div class="wrapper">
         <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile imgRedonda" src="images/profile.png" alt="" />
-                <h1 class="name">Edgar Colón</h1>
-                <h3 class="tagline">Full Stack Developer</h3>
-            </div>
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li><i class="fa fa-map-marker"></i>&nbsp;Ciudad de México.</li>
-                    <li class="email"><i class="fa fa-envelope"></i>&nbsp;<span>Email</span><br>
-                      <a href="mailto:edgar.colonb@gmail.com">edgar.colonb@gmail.com</a></li>
-                    <li class="phone"><i class="fa fa-phone"></i>&nbsp; <span>Teléfonos</span><br>
-                      <a href="tel:7444328340">(045) 7444328340</a><br>
-                      <a href="tel:5582404965">(55) 82404965</a></li>
-                    <li class="website"><i class="fa fa-facebook-f"></i><a href="https://web.facebook.com/informaticaavanzadaip" target="_blank">&nbsp;Facebook</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/edgar-colon-barrientos/" target="_blank">&nbsp;Linkedin</a></li>
-                </ul>
-                <p><a href="assets/CV_EdgarColonBarrientos.pdf" class="btn btn-dark" target="_blank">Descargar CV PDF <i class="fa fa-download"></i></a></p>
-            </div>
+           <div class="side-custom">
+                <div class="profile-container">
+                        <img class="profile imgRedonda" src="images/profile.png" alt="" />
+                        <h1 class="name">Edgar Colón</h1>
+                        <h3 class="tagline">Full Stack Developer</h3>
+                    </div>
+                    <div class="contact-container container-block">
+                        <ul class="list-unstyled contact-list">
+                            <li><i class="fa fa-map-marker"></i>&nbsp;Ciudad de México.</li>
+                            <li class="email"><i class="fa fa-envelope"></i>&nbsp;<span>Email</span><br>
+                              <a href="mailto:edgar.colonb@gmail.com">edgar.colonb@gmail.com</a></li>
+                            <li class="phone"><i class="fa fa-phone"></i>&nbsp; <span>Teléfonos</span><br>
+                              <a href="tel:7444328340">(045) 7444328340</a><br>
+                              <a href="tel:5582404965">(55) 82404965</a></li>
+                              <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/edgar-colon-barrientos/" target="_blank">&nbsp;Linkedin</a></li>
+                            <li class="website"><i class="fa fa-facebook-f"></i><a href="https://web.facebook.com/informaticaavanzadaip" target="_blank">&nbsp;Facebook</a></li>
+                        </ul>
+                        <p><a href="assets/CV_EdgarColonBarrientos.pdf" class="btn btn-dark" target="_blank">Descargar CV PDF <i class="fa fa-download"></i></a></p>
+                    </div>
+           </div>
         </div>
         <div class="main-wrapper">
             <section class="section summary-section">
@@ -118,7 +120,7 @@
                    </ul>
                  </div>
                </div>
-             </div>
+            
             <article class="tabla_aptitudes">
 								<div class="hablidad">
 									<div class="text-primary nombreHab"> <b> Idiomas:	</b></div>
@@ -312,8 +314,17 @@
            </div>
          </section>
     </div>
-    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+</div>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+    $(window).resize(function(){
+        console.log('In windows resize..!');
+        if($(window).width()<970){
+            $('.side-custom').removeClass('position-fixed');
+        }
+    });
+    </script>
 </body>
 </html>

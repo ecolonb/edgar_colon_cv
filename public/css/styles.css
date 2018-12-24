@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #545E6C;
+  color: #545e6c;
   background-color: #3a3c3e;
   font-size: 1.2em;
   padding: 30px;
@@ -33,8 +33,8 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
-  max-width: 960px;
+  background: #42a8c0;
+  max-width: 1100px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -42,12 +42,12 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: #42a8c0;
   position: absolute;
   right: 0;
   width: 240px;
   height: 100%;
-  min-height: 800px;
+  min-height: 900px;
   color: #fff;
 }
 .sidebar-wrapper a {
@@ -67,8 +67,8 @@ p {
 }
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -77,14 +77,16 @@ p {
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 3px;
-  font-size: 15px;
+  font-size: 17px;
   vertical-align: middle;
+  font-weight: bold;
 }
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
+  font-size: 18px;
 }
-.sidebar-wrapper .contact-list li > a{
-  font-size: 14px;
+.sidebar-wrapper .contact-list li > a {
+  font-size: 17px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -173,7 +175,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #42A8C0;
+  background: #42a8c0;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -192,7 +194,7 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #3F4650;
+  color: #3f4650;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
@@ -202,11 +204,11 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #97aac3;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #97aac3;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -243,14 +245,14 @@ p {
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #545E6C;
+  color: #545e6c;
   font-size: 13px;
 }
 .footer .fa-heart {
   color: #fb866a;
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media (max-width: 850px) {
   .sidebar-wrapper {
     position: static;
     width: inherit;
@@ -285,33 +287,33 @@ p {
   }
 }
 /*Other Styles*/
-.profile-container > .imgRedonda{
-    border-radius:160px;
-    border:4px solid #42A8C0;
+.profile-container > .imgRedonda {
+  border-radius: 160px;
+  border: 4px solid #42a8c0;
 }
 
-.tabla_aptitudes{
-  display:absolute;
+.tabla_aptitudes {
+  display: absolute;
   margin-top: 40px;
   font-size: 0.9em;
 }
- .tabla_aptitudes .hablidad{
+.tabla_aptitudes .hablidad {
   width: 100%;
   display: inline-block;
-  float:left;
-  display:inherit;
+  float: left;
+  display: inherit;
   padding-top: 5px;
   margin-bottom: 12px;
-  border-bottom: solid 1px #C7C8BF;
+  border-bottom: solid 1px #c7c8bf;
 }
-.tabla_aptitudes .nombreHab{
+.tabla_aptitudes .nombreHab {
   display: inline-block;
   width: 27%;
   text-align: left;
   vertical-align: top;
   padding-top: 10px;
 }
-.tabla_aptitudes .descHabilidad{
+.tabla_aptitudes .descHabilidad {
   display: inline-block;
   width: 72%;
   height: auto;
@@ -320,7 +322,7 @@ p {
   position: relative;
   text-align: justify;
 }
-section > .lista_skill > ul > li{
+section > .lista_skill > ul > li {
   font-size: 0.9em;
   text-align: left;
 }
@@ -329,37 +331,37 @@ section > .lista_skill > ul > li{
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-.desc_min{
+.desc_min {
   font-size: 12px;
   margin-top: -15px;
 }
-.otras_experiencias{
+.otras_experiencias {
   padding-top: 30px;
   font-size: 0.9em;
 }
-.otras_experiencias h3{
+.otras_experiencias h3 {
   background: #278296;
-  color: #FFF;
+  color: #fff;
   padding: 10px 190px 10px 30px;
   display: inline-block;
   font-size: 1.2em;
   text-transform: capitalize;
 }
-.otras_experiencias .otras_exp  .itemExpr{
+.otras_experiencias .otras_exp .itemExpr {
   font-size: 1em;
-  border-bottom: solid 1px #C2C5BA;
+  border-bottom: solid 1px #c2c5ba;
   height: auto;
   margin-top: 18px;
   margin-left: 2%;
   padding-bottom: 10px;
 }
-.otras_experiencias .otras_exp  .itemExpr h2 {
+.otras_experiencias .otras_exp .itemExpr h2 {
   font-size: 1.3em;
 }
-.otras_experiencias .otras_exp  .itemExpr h2 > a {
+.otras_experiencias .otras_exp .itemExpr h2 > a {
   font-size: 0.8em;
 }
-.otras_experiencias .otras_exp  .itemExpr .titulosLineas{
+.otras_experiencias .otras_exp .itemExpr .titulosLineas {
   font-weight: bold;
   font-size: 1em;
 }
@@ -368,26 +370,29 @@ section > .lista_skill > ul > li{
   font-style: italic;
   margin-bottom: 3px;
 }
-.copywrite{
-	padding-left:2em;
-	margin-top:1em;
+.copywrite {
+  padding-left: 2em;
+  margin-top: 1em;
 }
-.copywrite p{
-	color:#999;
-	font-size:0.9em;
+.copywrite p {
+  color: #999;
+  font-size: 0.9em;
 }
-.copywrite p a{
-	color:#999;
+.copywrite p a {
+  color: #999;
 }
-.copywrite p a:hover{
-	color:#6ecadc;
+.copywrite p a:hover {
+  color: #6ecadc;
 }
-.section > h2{
-  background:#6ecadc;
-  color: #FFF;
+.section > h2 {
+  background: #6ecadc;
+  color: #fff;
   padding: 5px 190px 5px 30px;
   display: inline-block;
 }
 .itemExpr > ul > li {
   margin-top: 8px;
+}
+.text-secondary {
+  font-size: 1.1em;
 }
