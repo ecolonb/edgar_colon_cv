@@ -334,6 +334,8 @@ section > .lista_skill > ul > li {
 .desc_min {
   font-size: 12px;
   margin-top: -15px;
+  display: block;
+  margin: 5px 17px 5px 0px;
 }
 .otras_experiencias {
   padding-top: 30px;
@@ -370,6 +372,7 @@ section > .lista_skill > ul > li {
   font-style: italic;
   margin-bottom: 3px;
 }
+
 .copywrite {
   padding-left: 2em;
   margin-top: 1em;
@@ -395,4 +398,21 @@ section > .lista_skill > ul > li {
 }
 .text-secondary {
   font-size: 1.1em;
+}
+/* Text styles */
+.font-bold {
+  font-weight: 650;
+}
+.item-dexcription {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.margin0 {
+  margin: 0;
+}
+.img-platform {
+  height: 15px;
+}
+.h14 {
+  height: 14px;
 }
